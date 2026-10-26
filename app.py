@@ -31,16 +31,16 @@ PIVPN_CONFIGS = "/home/benus/configs"
 
 # Valeurs par défaut — insérées en BDD si absentes
 SETTINGS_DEFAULTS = {
-    "beneficiaire":      "Чеганг Анжес Уилфрид",
-    "telephone":         "+7 996 637-23-58",
-    "banque":            "Тбанк",
+    "beneficiaire":      "",
+    "telephone":         "",
+    "banque":            "",
     "montant":           "100",
     "reference":         "VPN + твоё имя",
     "telegram_bot_token": "",
     "telegram_chat_id":   "",
     "support_telegram":   "",   # ex: https://t.me/tonpseudo
-    "support_whatsapp":   "",   # ex: +7 996 637-23-58
-    "smtp_email":         "benuslavision@gmail.com",
+    "support_whatsapp":   "",   # ex: +7 900 000-00-00
+    "smtp_email":         "",
     "smtp_password":      "",   # Mot de passe d'application Gmail
     "site_url":           "",   # ex: https://vpn.mondomaine.com (sans slash final)
 }
